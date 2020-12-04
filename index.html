@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ajutor pentru Programator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+        <script src="main.js"></script>
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#"><img class="logo" src="./img/logo.png"></a>
+    
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="main-navigation">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" id="black-btn">Logare</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Creare cont</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="start-page">
+        <div class="container px-5 py-5">
+        <div class="row px-3">
+            <div class="col-sm-6 my-auto">
+                <div class="row" id="space">
+                    <p>
+                    </p>
+                </div>
+                <div class="row px-2 py-3">
+                <h2 class="section-heading" id="pop-text">Cumpăratul de teme nu a fost niciodată mai simplu!</h2>
+                </div>
+                <div class="row" id="space">
+                    <p>
+                    </p>
+                </div>
+                <div class="row px-2 py-3">
+                <p id="reg-text">Platforma ideala pentru studenții de la Politehnică cu portofele pline, care au nevoie urgent de un înger care să le repare nota de intrare în examen.
+                </p>
+                </div>
+                <div class="row py-5">
+                <div class="col-sm-auto">
+                    <button class="btn btn-primary" id="black-btn" data-toggle="modal" data-target="#myModal">Vreau să cumpăr</button>
+                </div>
+                <div class="col-sm-auto">
+                    <p class="btn btn-primary" id="green-btn">Vreau sa fac teme pentru alții</p>
+                </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6">
+                <img src="img/Group 1.png" class="mr-3">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="green-bg">
+        <div class="container px-5 py-5">
+            <h2 class="text-center py-3" id="pop-text">Cum funcționează?</h2>
+            <div class="row py-4">
+                <div class="col-sm-4">
+                <div class="container">
+                <div class="row" id="number-box-group">
+                    <div class="col-sm-1">
+                        <h1 class="btn btn-primary" id="black-btn">1</h1>
+                    </div>
+                    <div class="col-sm ml-4" id="reg-text">Realizezi un cont pe platformă în care introduci câteva detalii personale (nu vă faceți griji, profesorii nu or să va descopere) și materiile la care ai nevoie de ajutor.</div>
+                </div>
+                </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h1 class="btn btn-primary" id="black-btn">2</h1>
+                        </div>
+                        <div class="col-sm ml-4" id="reg-text">Străbați platforma în căutare de studenți care oferă servicii la materiile dorite sau te rogi la Sfântul 5 să primești mesaj de la cineva care te descoperă și e dispus să te salveze.</div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <h1 class="btn btn-primary" id="black-btn">3</h1>
+                            </div>
+                            <div class="col-sm ml-4" id="reg-text">După ce stabiliți o sumă care oricum este de zeci de ori mai mare decât la alte universități, aștepti ca noul vostru amic să vă încarce soluția pe platformă. Jumătate din plată oferiți în avans, restul după ce vă vedeți intrat în examen.</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form-cu-tupeu">
+    <div class="container px-5 py-5">
+        <div class="row rounded-lg px-3 py-3" style="box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+        border-radius: 5px;">
+            <div class="col-sm-6 py-3">
+                <div class="container">
+                    <h2 id="pop-text-small">Ai tupeu și crezi că poți să aduci îmbunătățiri la platformă? </h2>
+                </div>
+                <div class="container py-3" style="padding-right: 40%;">
+                    <p id="reg-text">Trimite-ne un mail și roagă-te să nu ne apuce râsul când vedem ce îți trece prin cap.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 py-3">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" id="form-labels">Nume</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" id="form-labels">Email</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" style="border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" id="form-labels">Înjurătura</label>
+                    <textarea type="email" class="form-control" id="exampleInputEmail1" rows="3" style="border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;"></textarea>
+                  </div>
+                  <button id="black-btn" class="btn btn-primary">Trimite</button>
+            </form>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid px-3 py-4" style="background-color:#263238;">
+            <div class="row py-1 d-flex justify-content-center">
+                    <li><i class="fa fa-instagram"><img src="img/Instagram.png"></i>
+                    </li>
+                    <li><i class="fa fa-twitter"><img src="img/Twitter.png"></i>
+                    </li>
+                    <li><i class="fa fa-facebook"><img src="img/Facebook.png"></i>
+                    </li>
+            </div>
+            <div  class="row mt-3 mb-1 d-flex justify-content-center">
+                <p id="footer-text">Copyright 2020 | Cine ne pârăște o mierlește.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <!-- <div class="modal-header"> -->
+                    <!-- <div class="container-fluid">
+            <div class="row div-flex justify-content-between">
+                <div class="container mx-3 my-3">
+                    <h2 id="form-labels">Exprima-ti frustrarile</h2>
+                </div>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+                    </div> -->
+        <!-- </div> -->
+                <div class="modal-header">
+                    <h5 class="modal-tile" id="form-prompts-text">Exprima-ti frustrarile</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                </div>
+
+        <div class="modal-body">
+        <div class="container py-3">
+            <form>
+                    <div class="form-group">
+                        <select class="form-control" id="formControlSelect" style="border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;">
+                            <option>Alege materia</option>
+                          </select>
+                    </div>
+
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="project-title" placeholder="Titlul proiectului" style="border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;">
+                      </div>
+
+                      <div class="container d-flex justify-content-center">
+                        <button id="modal-btn" class="btn btn-primary">Incarca</button>
+                      </div>
+            </form>
+        </div>
+        </div>
+
+        <div class="container-fluid pt-3" style="background-color: #92E3A9;">
+                <p id="form-prompts-text">Plangeri introduse pana acum.</p>
+        </div>
+
+        <div class="container py-3" id="plangeri">
+            <!-- <div class="row"> -->
+                <div><p id="form-prompts-text" style="margin-bottom: 0px; black;">Tetris</p>
+                    <p id="form-prompts-text" style="margin-top: 0px; color: #92E3A9;">(EGC)</p>
+                </div>
+                
+                <!-- <div class="w-100"></div>
+                <div class="col sm-12 pt-0">
+                   
+                </div> -->
+            <!-- </div> -->
+        </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

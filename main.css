@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    margin-top:5px
+  }
+  .nav-link {
+    font-family: Merriweather;
+    color: #263238;
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .nav-item {
+    font-family: Merriweather;
+    color: #263238;
+  }
+
+  #reg-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #263238;
+  }
+
+  #pop-text {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #263238;
+  }
+
+  #pop-text-small {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+
+    color: #263238;
+  }
+
+  #footer-text {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF; 
+  }
+
+  #form-prompts-text {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #263238;
+  }
+
+  .modal-header {
+    background-color: #92E3A9;
+    border-color: #92E3A9;
+    color: #263238;
+  }
+
+  #green-btn {
+    background-color: #92E3A9;
+    border-color: #92E3A9;
+    color: #263238;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #black-btn {
+    background: #263238;
+    border-color: #263238;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #92E3A9;
+  }
+  #modal-btn {
+    background: #263238;
+    border-color: #263238;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #92E3A9;
+  }
+
+  #bnb-text {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /*line-height: 48px;*/
+    color: #92E3A9;
+  }
+
+  #black-num-btn {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /*line-height: 48px;*/
+    color: #92E3A9;
+
+    background: #263238;
+    border-color: #263238;
+    width: 50px;
+    height: 50px;
+  }
+
+  #green-bg{
+    left: 0px;
+    right: 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    background-color: #92E3A9;
+  }
+  #space {
+    width: 20px;
+  }
+
+  #header-text {
+    font-family: Merriweather;
+    font-size: 40px;
+    padding-top: 30%;
+    padding-bottom: 15px; 
+  }
+
+  #about {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #text-block {
+
+  }
+
+  #number-box-group {
+  }
+
+  #form-cu-tupeu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #form-labels {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #263238;
+  }
+
+  #form-box {
+    border: 1px solid #263238; box-sizing: border-box; border-radius: 5px;
+  }
